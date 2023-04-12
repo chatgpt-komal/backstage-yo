@@ -4,5 +4,5 @@ metadata:
   name: react
 spec:
   type: service
-  owner: user:guest
+  owner: rapidx
   lifecycle: experimental
