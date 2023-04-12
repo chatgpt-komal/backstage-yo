@@ -12,7 +12,7 @@ backend:
   # auth:
   #   keys:
   #     - secret: ${BACKEND_SECRET}
-  baseUrl: https://7007-komalsriniv-backstageyo-a1t3osfkxci.ws-us93.gitpod.io
+  baseUrl: https://7007-chatgptkoma-backstageyo-eu1hj1eiodt.ws-us93.gitpod.io
   listen:
     port: 7007
     # Uncomment the following host directive to bind to specific interfaces
@@ -22,7 +22,7 @@ backend:
     # Content-Security-Policy directives follow the Helmet format: https://helmetjs.github.io/#reference
     # Default Helmet Content-Security-Policy values can be removed by setting the key to false
   cors:
-    origin: https://3000-komalsriniv-backstageyo-a1t3osfkxci.ws-us93.gitpod.io
+    origin: https://3000-chatgptkoma-backstageyo-eu1hj1eiodt.ws-us93.gitpod.io
     methods: [GET, HEAD, PATCH, POST, PUT, DELETE]
     credentials: true
   # This is for local development only, it is not recommended to use this in production
