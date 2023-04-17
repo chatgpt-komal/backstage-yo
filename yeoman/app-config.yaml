@@ -12,7 +12,7 @@ backend:
   # auth:
   #   keys:
   #     - secret: ${BACKEND_SECRET}
-  baseUrl: https://7007-chatgptkoma-backstageyo-eu1hj1eiodt.ws-us93.gitpod.io
+  baseUrl: https://7007-chatgptkoma-backstageyo-eu1hj1eiodt.ws-us94.gitpod.io
   listen:
     port: 7007
     # Uncomment the following host directive to bind to specific interfaces
@@ -22,7 +22,7 @@ backend:
     # Content-Security-Policy directives follow the Helmet format: https://helmetjs.github.io/#reference
     # Default Helmet Content-Security-Policy values can be removed by setting the key to false
   cors:
-    origin: https://3000-chatgptkoma-backstageyo-eu1hj1eiodt.ws-us93.gitpod.io
+    origin: https://3000-chatgptkoma-backstageyo-eu1hj1eiodt.ws-us94.gitpod.io
     methods: [GET, HEAD, PATCH, POST, PUT, DELETE]
     credentials: true
   # This is for local development only, it is not recommended to use this in production
@@ -39,7 +39,7 @@ integrations:
     - host: github.com
       # This is a Personal Access Token or PAT from GitHub. You can find out how to generate this token, and more information
       # about setting up the GitHub integration here: https://backstage.io/docs/getting-started/configuration#setting-up-a-github-integration
-      token: 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
+      token: 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
     ### Example for how to add your GitHub Enterprise instance using the API:
     # - host: ghe.example.net
     #   apiBaseUrl: https://ghe.example.net/api/v3
@@ -86,6 +86,13 @@ catalog:
       target: ../../examples/template/template.yaml
       rules:
         - allow: [Template]
+
+    - type: file
+      target: ../../examples/template/react-template.yaml
+      rules:
+        - allow: [Template]
+
+        
 
     # Local example organizational data
     - type: file
